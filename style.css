@@ -1,0 +1,118 @@
+body{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+padding:20px;
+text-align:center;
+}
+
+h1,h2,h3{
+color:#003366;
+}
+
+table{
+background:white;
+border-collapse:collapse;
+margin:auto;
+}
+
+th,td{
+padding:10px;
+}
+
+button{
+padding:10px 20px;
+margin:5px;
+cursor:pointer;
+}
+
+.certificate{
+background:white;
+padding:30px;
+border:2px solid #000;
+max-width:700px;
+margin:auto;
+}
+body{
+background:#f4f6f9;
+font-family:Arial,sans-serif;
+}
+
+h1,h2,h3{
+color:#003366;
+}
+
+.certificate{
+max-width:800px;
+margin:auto;
+}
+
+button{
+margin:5px;
+}
+/* Full page setup */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    overflow-x: hidden;
+
+    /* Modern gradient background */
+    background: linear-gradient(-45deg,
+        #0f2027,
+        #203a43,
+        #2c5364,
+        #1c1c1c
+    );
+    background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+
+    color: #fff;
+}
+
+/* Smooth animated gradient movement */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Optional glass-style overlay for cards/containers */
+.glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+/* Soft glowing circles decoration */
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: -1;
+}
+
+body::before {
+    top: 10%;
+    left: 10%;
+    background: #00c6ff;
+}
+
+body::after {
+    bottom: 10%;
+    right: 10%;
+    background: #ff00cc;
+}
